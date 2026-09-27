@@ -1169,7 +1169,7 @@ def build_parser():
     g.add_argument("--negative-control", action="store_true", help="it is a sanity check: shuffle the cell-type labels of the whole dataset BEFORE the analysis. Real biology is destroyed, so you should have ~0 confident interactions\nif not, thresholds are too permissive for your data.")
 #### output part:
     g = r.add_argument_group("output")
-    g.add_argument("--outdir", default="ccflow_out", help="Output folder (created if missing).")
+    g.add_argument("--outdir", default="celltalkpy_out", help="Output folder (created if missing).")
     g.add_argument("--no-plots", action="store_true", help="Only write the tables.")
     _add_plot_args(r)
     r.set_defaults(func=cmd_run)
