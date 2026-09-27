@@ -1,4 +1,4 @@
- "CELLTALKPY — cell-cell communication inference from CellPhoneDB database"
+# CELLTALKPY — cell-cell communication inference from CellPhoneDB database
 
 
 ## Overview
