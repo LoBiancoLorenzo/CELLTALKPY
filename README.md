@@ -40,7 +40,7 @@ python celltalkpy.py run \
   --outdir fake_out
 
 # 3) sanity check: shuffle cell types, confident interactions should drop to ~0
-python ccflow.py run \
+python celltalkpy.py run \
   --adata fake_adata.h5ad --cpdb-dir cellphonedb-data-5.0.0/data \
   --celltype-col celltype --sample-col Patient Tumor_type_recurrence \
   --condition-col Tumor_type_recurrence --negative-control --no-plots --outdir fake_nc
