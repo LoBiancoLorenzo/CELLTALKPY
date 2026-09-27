@@ -1,11 +1,5 @@
----
-title: "CELLTALKPY — cell-cell communication inference from CellPhoneDB database"
-output:
-  html_document:
-    toc: true
-    toc_float: true
-    theme: flatly
----
+ "CELLTALKPY — cell-cell communication inference from CellPhoneDB database"
+
 
 ## Overview
 
